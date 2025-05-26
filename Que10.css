@@ -1,0 +1,28 @@
+
+/* Base styles */
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
